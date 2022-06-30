@@ -143,18 +143,18 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FWCS</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AD94987-01A1-49D9-AE39-E0841F1A3AA1}</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FWCS.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS/FWCS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FWCS/FWCS.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FWCS/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{FF117B57-A43E-44D4-B15B-F51C95CF2143}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
