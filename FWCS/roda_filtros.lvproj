@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FWCS.vi" Type="VI" URL="../FWCS.vi"/>
+		<Item Name="TCPIP Communication.vi" Type="VI" URL="../TCPIP Communication.vi"/>
 		<Item Name="Stream Communication.vi" Type="VI" URL="../Stream Communication.vi"/>
 		<Item Name="Roda_Filtros.lvclass" Type="LVClass" URL="../Roda_Filtros/Roda_Filtros.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
@@ -32,57 +33,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="FWCS" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{42CC8F79-2890-4B5E-B01E-911E5B2FF0D5}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{34D6599C-FEA5-4A0A-A730-CDA5D4426E37}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{01194DCB-4187-4AB7-81E6-FAD84C9147E4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FWCS</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/FWCS</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{66CA019C-5291-4725-8EF8-867600667527}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FWCS.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/FWCS/FWCS.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/FWCS/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ADBEAB95-3A98-48A7-860B-CA35B2B01D86}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FWCS.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Stream Communication.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">INPE</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FWCS</Property>
-				<Property Name="TgtF_internalName" Type="Str">FWCS</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">FWCS</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{87D1D09A-8609-4B4B-AC7E-24C2B3DE3F41}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FWCS.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="FWCS Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">roda_filtros</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -178,9 +128,59 @@
 				<Property Name="Source[2].File[0].tag" Type="Str">{87D1D09A-8609-4B4B-AC7E-24C2B3DE3F41}</Property>
 				<Property Name="Source[2].FileCount" Type="Int">1</Property>
 				<Property Name="Source[2].name" Type="Str">FWCS</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Build Specifications/FWCS</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="FWCS" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{98882AE8-6464-479A-B9A0-95886230DF59}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DD331120-B9C4-4AF5-98C2-3F4B0F7DF593}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F0C2B5F7-3ECE-4525-96E1-5B4208D8D432}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FWCS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{4AD94987-01A1-49D9-AE39-E0841F1A3AA1}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">FWCS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS/FWCS.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FWCS/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FF117B57-A43E-44D4-B15B-F51C95CF2143}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FWCS.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Stream Communication.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TCPIP Communication.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FWCS</Property>
+				<Property Name="TgtF_internalName" Type="Str">FWCS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">FWCS</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{804216D3-F4B1-464D-A4A9-092603B00EAC}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FWCS.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
