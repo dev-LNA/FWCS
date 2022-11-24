@@ -99,7 +99,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">FWCS Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
 				<Property Name="INST_productName" Type="Str">FWCS Installer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008007</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -112,26 +112,21 @@
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
-				<Property Name="Source[0].name" Type="Str">main.vi</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/FWCS.vi</Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
-				<Property Name="Source[1].name" Type="Str">Stream Communication.vi</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Stream Communication.vi</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">FWCS.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">FWCS</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">FWCS Installer</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{804216D3-F4B1-464D-A4A9-092603B00EAC}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">FWCS</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/FWCS</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[2].File[0].dest" Type="Str">{EFC260F4-D474-4045-9FE1-CB7D0579F051}</Property>
 				<Property Name="Source[2].File[0].name" Type="Str">FWCS.exe</Property>
-				<Property Name="Source[2].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[2].File[0].Shortcut[0].name" Type="Str">FWCS</Property>
-				<Property Name="Source[2].File[0].Shortcut[0].subDir" Type="Str">FWCS Installer</Property>
-				<Property Name="Source[2].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[2].File[0].tag" Type="Str">{87D1D09A-8609-4B4B-AC7E-24C2B3DE3F41}</Property>
-				<Property Name="Source[2].FileCount" Type="Int">1</Property>
-				<Property Name="Source[2].name" Type="Str">FWCS</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="FWCS" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -148,7 +143,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AD94987-01A1-49D9-AE39-E0841F1A3AA1}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FWCS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FWCS/FWCS.exe</Property>
