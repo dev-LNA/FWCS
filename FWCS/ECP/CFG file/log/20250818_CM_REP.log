@@ -1,0 +1,96 @@
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:52:21 AM
+ 
+2025-08-19T11:52:21.782111  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:52:21.782615  [INFO] --> Linger (ms): 200
+2025-08-19T11:52:21.782615  [INFO] --> IP address: *:5555
+2025-08-19T11:52:21.782615  [INFO] --> Option: NONE
+2025-08-19T11:52:21.782615  [INFO] --> ID: 0
+2025-08-19T11:52:21.782615  [INFO] --> Name: CM_REP
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:53:05 AM
+ 
+2025-08-19T11:53:05.551573  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:53:05.551573  [INFO] --> Linger (ms): 200
+2025-08-19T11:53:05.551573  [INFO] --> IP address: *:5555
+2025-08-19T11:53:05.551573  [INFO] --> Option: NONE
+2025-08-19T11:53:05.551573  [INFO] --> ID: 0
+2025-08-19T11:53:05.551573  [INFO] --> Name: CM_REP
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:55:32 AM
+ 
+2025-08-19T11:55:32.744253  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:55:32.744253  [INFO] --> Linger (ms): 200
+2025-08-19T11:55:32.744253  [INFO] --> IP address: 200.131.64.25:5555
+2025-08-19T11:55:32.744253  [INFO] --> Option: NONE
+2025-08-19T11:55:32.744253  [INFO] --> ID: 0
+2025-08-19T11:55:32.744253  [INFO] --> Name: CM_REP
+2025-08-19T11:55:35.792320  [INFO] --> Received message: ads
+2025-08-19T11:55:35.792320  [INFO] --> Message sent : ACK
+2025-08-19T11:55:36.775516  [INFO] --> Received message: ads
+2025-08-19T11:55:36.775516  [INFO] --> Message sent : ACK
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:56:44 AM
+ 
+2025-08-19T11:56:44.968443  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:56:44.968443  [INFO] --> Linger (ms): 200
+2025-08-19T11:56:44.968443  [INFO] --> IP address: 127.0.0.1:5555
+2025-08-19T11:56:44.968443  [INFO] --> Option: NONE
+2025-08-19T11:56:44.968443  [INFO] --> ID: 0
+2025-08-19T11:56:44.968443  [INFO] --> Name: CM_REP
+2025-08-19T11:56:46.618319  [INFO] --> Received message: ads
+2025-08-19T11:56:46.618319  [INFO] --> Message sent : ACK
+2025-08-19T11:56:47.521338  [INFO] --> Received message: ads
+2025-08-19T11:56:47.521338  [INFO] --> Message sent : ACK
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:57:06 AM
+ 
+2025-08-19T11:57:06.110997  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:57:06.110997  [INFO] --> Linger (ms): 200
+2025-08-19T11:57:06.110997  [INFO] --> IP address: localhost:5555
+2025-08-19T11:57:06.110997  [INFO] --> Option: NONE
+2025-08-19T11:57:06.110997  [INFO] --> ID: 0
+2025-08-19T11:57:06.110997  [INFO] --> Name: CM_REP
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-8:58:53 AM
+ 
+2025-08-19T11:58:53.386750  [INFO] --> Socket type: ZMQ_REP
+2025-08-19T11:58:53.386750  [INFO] --> Linger (ms): 200
+2025-08-19T11:58:53.386750  [INFO] --> IP address: 127.0.0.1:5555
+2025-08-19T11:58:53.386750  [INFO] --> Option: NONE
+2025-08-19T11:58:53.386750  [INFO] --> ID: 0
+2025-08-19T11:58:53.386750  [INFO] --> Name: CM_REP
+2025-08-19T11:58:56.224947  [INFO] --> Received message: asd
+2025-08-19T11:58:56.224947  [INFO] --> Message sent : ACK
+2025-08-19T11:58:57.040282  [INFO] --> Received message: asd
+2025-08-19T11:58:57.040282  [INFO] --> Message sent : ACK

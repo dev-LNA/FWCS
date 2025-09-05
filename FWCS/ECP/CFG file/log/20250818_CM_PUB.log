@@ -1,0 +1,17 @@
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Tuesday, August 19, 2025-9:01:20 AM
+ 
+2025-08-19T12:01:20.835353  [INFO] --> Socket type: ZMQ_PUB
+2025-08-19T12:01:20.835353  [INFO] --> Linger (ms): 200
+2025-08-19T12:01:20.835353  [INFO] --> IP address: 127.0.0.1:5556
+2025-08-19T12:01:20.835353  [INFO] --> Option: ZMQ_SWAP
+2025-08-19T12:01:20.835353  [INFO] --> ID: 0
+2025-08-19T12:01:20.835353  [INFO] --> Name: CM_PUB
+2025-08-19T12:01:23.253912  [INFO] --> Message sent : asd
+2025-08-19T12:01:24.085377  [INFO] --> Message sent : asd
+2025-08-19T12:01:24.980443  [INFO] --> Message sent : asd
