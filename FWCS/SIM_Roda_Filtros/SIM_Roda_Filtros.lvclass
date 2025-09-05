@@ -25,7 +25,7 @@
 	<Item Name="SIM_Roda_Filtros.ctl" Type="Class Private Data" URL="SIM_Roda_Filtros.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="close communication.vi" Type="VI" URL="../close communication.vi">
+	<Item Name="close serial.vi" Type="VI" URL="../close serial.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!%V.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -34,7 +34,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="Open communication.vi" Type="VI" URL="../Open communication.vi">
+	<Item Name="Open serial.vi" Type="VI" URL="../Open serial.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%='^S&gt;!!!/%"Q!"Y!!"I95UF.8V*P:'&amp;@2GFM&gt;(*P=SZM&gt;G.M98.T!!!45UF.8V*P:'&amp;@2GFM&gt;(*P=S"J&lt;A"5!0!!$!!$!!1!!!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!))!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -43,7 +43,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="read comm response.vi" Type="VI" URL="../read comm response.vi">
+	<Item Name="read from serial.vi" Type="VI" URL="../read from serial.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!%V.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -52,7 +52,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
-	<Item Name="Send command.vi" Type="VI" URL="../Send command.vi">
+	<Item Name="Send to serial.vi" Type="VI" URL="../Send to serial.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;.*46^3&lt;W2B8U:J&lt;(2S&lt;X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````](&lt;76T=W&amp;H:1!Y1(!!(A!!'BB435V@5G^E96^';7RU=G^T,GRW9WRB=X-!!".435V@5G^E96^';7RU=G^T)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
