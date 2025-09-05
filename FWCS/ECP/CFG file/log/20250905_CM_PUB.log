@@ -1,0 +1,112 @@
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-1:58:00 PM
+ 
+2025-09-05T16:58:00.926867  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T16:58:00.926867  [INFO] --> Linger (ms): 200
+2025-09-05T16:58:00.926867  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T16:58:00.926867  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T16:58:00.926867  [INFO] --> ID: 0
+2025-09-05T16:58:00.927372  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-2:06:58 PM
+ 
+2025-09-05T17:06:58.192607  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T17:06:58.192607  [INFO] --> Linger (ms): 200
+2025-09-05T17:06:58.192607  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T17:06:58.192607  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T17:06:58.192607  [INFO] --> ID: 0
+2025-09-05T17:06:58.192607  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-2:08:09 PM
+ 
+2025-09-05T17:08:09.647853  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T17:08:09.647853  [INFO] --> Linger (ms): 200
+2025-09-05T17:08:09.647853  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T17:08:09.647853  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T17:08:09.647853  [INFO] --> ID: 0
+2025-09-05T17:08:09.647853  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-2:08:20 PM
+ 
+2025-09-05T17:08:20.982067  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T17:08:20.982067  [INFO] --> Linger (ms): 200
+2025-09-05T17:08:20.982067  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T17:08:20.982067  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T17:08:20.982067  [INFO] --> ID: 0
+2025-09-05T17:08:20.982067  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-3:25:01 PM
+ 
+2025-09-05T18:25:01.935195  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T18:25:01.936603  [INFO] --> Linger (ms): 200
+2025-09-05T18:25:01.936603  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T18:25:01.936603  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T18:25:01.936603  [INFO] --> ID: 0
+2025-09-05T18:25:01.936603  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-3:27:59 PM
+ 
+2025-09-05T18:27:59.452698  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T18:27:59.452698  [INFO] --> Linger (ms): 200
+2025-09-05T18:27:59.452698  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T18:27:59.452698  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T18:27:59.452698  [INFO] --> ID: 0
+2025-09-05T18:27:59.452698  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-3:28:27 PM
+ 
+2025-09-05T18:28:27.121398  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T18:28:27.121398  [INFO] --> Linger (ms): 200
+2025-09-05T18:28:27.121398  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T18:28:27.121398  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T18:28:27.121398  [INFO] --> ID: 0
+2025-09-05T18:28:27.121398  [INFO] --> Name: CM_PUB
+------------------------------
+COMMUNICATION MANAGER LOG FILE 
+------------------------------
+
+In this file, important events generated during the execution of the softrware are logged. 
+ 
+Created in Friday, September 5, 2025-3:31:35 PM
+ 
+2025-09-05T18:31:35.015342  [INFO] --> Socket type: ZMQ_PUB
+2025-09-05T18:31:35.015342  [INFO] --> Linger (ms): 200
+2025-09-05T18:31:35.015342  [INFO] --> IP address: 127.0.0.1:5556
+2025-09-05T18:31:35.015342  [INFO] --> Option: ZMQ_SWAP
+2025-09-05T18:31:35.015342  [INFO] --> ID: 0
+2025-09-05T18:31:35.015342  [INFO] --> Name: CM_PUB

@@ -24,12 +24,13 @@
 			<Item Name="CM get machine path.vi" Type="VI" URL="../ECP/General VIs/CM get machine path.vi"/>
 			<Item Name="CM night time stamp.vi" Type="VI" URL="../ECP/General VIs/CM night time stamp.vi"/>
 			<Item Name="CM_split string.vi" Type="VI" URL="../ECP/General VIs/CM_split string.vi"/>
-			<Item Name="PUB-SUB.vi" Type="VI" URL="../ECP/PUB-SUB.vi"/>
-			<Item Name="REQ-REP.vi" Type="VI" URL="../ECP/REQ-REP.vi"/>
+		</Item>
+		<Item Name="COMM" Type="Folder">
+			<Item Name="TCPIP Communication.vi" Type="VI" URL="../TCPIP Communication.vi"/>
+			<Item Name="COMM.vi" Type="VI" URL="../ECP/COMM.vi"/>
+			<Item Name="Stream Communication.vi" Type="VI" URL="../Stream Communication.vi"/>
 		</Item>
 		<Item Name="FWCS.vi" Type="VI" URL="../FWCS.vi"/>
-		<Item Name="TCPIP Communication.vi" Type="VI" URL="../TCPIP Communication.vi"/>
-		<Item Name="Stream Communication.vi" Type="VI" URL="../Stream Communication.vi"/>
 		<Item Name="Roda_Filtros.lvclass" Type="LVClass" URL="../Roda_Filtros/Roda_Filtros.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../State Machine/State Machine.lvclass"/>
@@ -181,11 +182,11 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Stream Communication.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/COMM/Stream Communication.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TCPIP Communication.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/COMM/TCPIP Communication.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
